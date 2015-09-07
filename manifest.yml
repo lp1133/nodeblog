@@ -1,0 +1,8 @@
+applications:
+- disk_quota: 10240M
+  host: blog
+  name: blog
+  path: .
+  domain: bbyun.xyz
+  instances: 1
+  memory: 80M
