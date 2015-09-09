@@ -8,12 +8,12 @@ var mongojs = require("mongojs");
 var db = mongojs(databaseUrl, collections);
 db.on('error', function (err) {
     res.send('database error', err);
-    console.log('database error', err)；
+    console.log('database error', err);
 })
 
 db.on('ready', function () {
     res.send('database connected');
-    console.log('database connected')；
+    console.log('database connected');
 })
 });
 
