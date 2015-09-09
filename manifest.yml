@@ -1,5 +1,5 @@
 applications:
-- disk_quota: 10240M
+- disk_quota: 2048M
   host: blog
   name: blog
   path: .
